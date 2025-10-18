@@ -20,7 +20,7 @@ public class example2 extends Thread {
             while(!obj.flag){
                 obj.wait();
             }
-           
+
 
         }System.out.println(obj.sum);
 
